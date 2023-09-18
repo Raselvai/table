@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+p {
+	margin: 0 !important;
+}
+
+.table_wrapper {
+	padding: 80px 0;
+	background: rgba(208, 0, 63, 0.80);
+}
+
+.table_wrapper h2 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #ffffff;
+	padding-bottom: 30px;
+}
+
+.table_box {
+	background: #F8F8F8;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 21px rgb(0 0 0 / 45%);
+	overflow: auto;
+}
+
+.table {
+    min-width: 1190px;
+}
+
+.table_box .table thead th, .table_box .table td, .table th {
+	border: transparent !important;
+	padding: 20px;
+	vertical-align: middle;
+}
+
+.para01 {
+	font-size: 14px;
+	font-weight: 700;
+	color: #000000;
+}
+
+.para02 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000;
+}
+
+.table_btn {
+	font-size: 18px;
+	font-weight: 700;
+	color: #D0003F;
+	line-height: 30px;
+}
+
+.table_btn:hover {
+	color: #D0003F;
+	text-decoration: underline;
+}
+
+.color1 {
+	color: #D0003F !important;
+}
+
+.color2 {
+	color: #0C7442 !important;  
+}
+
+.theme01 {
+	background: #FAFAFA;
+}
